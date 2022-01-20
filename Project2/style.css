@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+
+.header {
+    background-color: #303b4f;
+    height: 70px;
+}
+
+.logo {
+    width: 400px;
+    float: left;
+    margin-left: 20px;
+}
+
+.logo span {
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+}
+
+.nav-bar {
+    width: 660px;
+    float: right;
+    padding-top: 10px;
+}
+
+.nav-bar li {
+    color: #566175;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.nav-bar li:hover,
+.nav-bar li.active {
+    color: #2a6267;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.product {
+    background-color: #ffffff;
+    height: 260px;
+    color: #d3d3d3;
+    padding-top: 60px;
+}
+
+.item {
+    width: 23%;
+    padding: 1%;
+    float: left;
+}
+
+.item img {
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.item p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.item h4 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.more {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    width: 80px;
+    padding: 10px;
+    background-color: #d2d2d2;
+    border-radius: 5%;
+}
+
+.button {
+    background-color: gray;
+    width: 100px;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+
+.banner {
+    background-color: #2fb3e1;
+    padding: 70px 0px;
+}
+
+.banner h2,
+.banner p {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.banner .slide-show {
+    text-align: center;
+}
+
+.banner .slide-show .slide-show-button ul {
+    list-style-type: none;
+}
+
+.banner .slide-show .slide-show-button ul li:hover,
+.banner .slide-show .slide-show-button ul li.active {
+    background-color: #fff;
+}
+
+.banner .slide-show .slide-show-button ul li {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #7be1f5;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.footer {
+    border-bottom: #64676b;
+    background-color: #fff;
+}
+
+.top,
+.bottom {
+    width: 70%;
+    margin: auto;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.right {
+    float: left;
+    width: 50%;
+}

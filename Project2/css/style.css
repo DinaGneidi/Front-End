@@ -1,0 +1,21 @@
+.container {
+    width: 1170px;
+    margin: auto;
+    border: 1px solid black;
+    height: 200px;
+}
+
+.header {
+    background-color: teal;
+    height: 200px;
+}
+
+.product {
+    background-color: aquamarine;
+    height: 200px;
+}
+
+.photo {
+    background-color: blue;
+    height: 200px;
+}
